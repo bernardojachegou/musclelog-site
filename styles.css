@@ -49,6 +49,7 @@ main { overflow: hidden; }
 .feature-grid span { color: var(--red); font: 700 11px monospace; letter-spacing: 1px; }
 .feature-grid h3 { margin: 28px 0 9px; font-size: 17px; }
 .feature-grid p { margin: 0; color: var(--muted); font-size: 13px; line-height: 1.5; }
+@media (min-width: 801px) { .feature-grid article:last-child { grid-column: 2; } }
 
 .screens { padding-top: 16px; }
 .screen-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; margin-top: 44px; align-items: start; }
